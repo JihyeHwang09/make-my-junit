@@ -26,12 +26,15 @@ public class TestCaseTest extends TestCase {
     }
 
     public static void main(String[] args) {
+        TestSuite testSuite = new TestSuite();
+        testSuite.addTestCase (new TestCaseTest("runTest"));
+        testSuite.addTestCase(new TestCaseTest("runTestMinus"));
+
         TestResult testResult = new TestResult();
         // main 메소드에서 TestResult를 생성해서 각각의 테스트케이스에 파라미터로 전달한다.
         // -> 이렇게 되면,
         // 테스트 케이스가 실행될때마다 카운트가 체크되니 전체 카운트를 확인 가능
-        new TestCaseTest("runTest").run(testResult);
-        new TestCaseTest("runTestMinus").run(testResult);
+        testSuite.run(testResult);
         // printCount를 통해 미리 선언된 방식으로 레포팅
         testResult.printCount();
     }

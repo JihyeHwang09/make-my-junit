@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62cc7b98-7b82-4e51-a429-8dc1044efcd2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/myjunit.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/myjunit.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/myjunit/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestFailure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestCaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestCaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/MyjunitApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestCaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/myjunit/MyjunitApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestResult.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +56,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -61,7 +69,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -173,7 +181,7 @@
       <workItem from="1572418591806" duration="895000" />
       <workItem from="1572419581180" duration="2915000" />
       <workItem from="1572481445507" duration="10345000" />
-      <workItem from="1572492646029" duration="1163000" />
+      <workItem from="1572492646029" duration="8515000" />
     </task>
     <servers />
   </component>
