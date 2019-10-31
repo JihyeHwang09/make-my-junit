@@ -5,15 +5,21 @@ public class TestCaseTest extends TestCase {
         super(testCaseName);
     }
 
+    private static long base;
+
+    public void before () {
+        base = 10;
+    }
+
     public void runTest () {
-        long sum = 10 + 10;
+        long sum = 10 + base;
         Assert.assertTrue(sum == 20);
     }
 
     public void runTestMinus () {
-        long minus = 100 - 10;
-        //  테스트 메소드 안에서 처리되어야 할 값들을 assert문 안에 넣어서 예상값과 실제 처리된 값 비교
-
+        long minus = 100 - base;
+        //  테스트 메소드 안에서 처리되어야 할 값들을 assert문 안에 넣어서
+        //  예상값과 실제 처리된 값 비교
         Assert.assertTrue(minus == 90);
     }
 

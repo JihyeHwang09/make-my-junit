@@ -13,8 +13,16 @@ public abstract class TestCase {
     public TestCase(String testCaseName) {
         this.testCaseName = testCaseName;
     }
+    public void run () {
+        // before와 after는 추상메소드가 아니다.
+        // 일반메소드이지만 구현부분이 없이 생성
+        before();
+        runTestCase();
+        after();
+    }
+    protected void before () {}
 
-    public void run() {
+    public void runTestCase() {
         try {
             // run 메소드에 실행한 테스트 메소드를 확인하기 위해 메소드명을 출력하도록 logger를 추가
             logger.info("{} execute", testCaseName); // 테스트 케이스들 구별을 위해 name 출력 코드
@@ -27,6 +35,7 @@ public abstract class TestCase {
             throw new RuntimeException(e);
         }
     }
+    protected void after () {}
 }
 /*
 - 각각의 TestCase 이름을 가져야 식별가능하기 때문에
