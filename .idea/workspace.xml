@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62cc7b98-7b82-4e51-a429-8dc1044efcd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/myjunit.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/myjunit.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestCase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestCaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestCaseTest.class" afterDir="false" />
@@ -34,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cubetmf-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -170,7 +172,8 @@
       <updated>1572418589887</updated>
       <workItem from="1572418591806" duration="895000" />
       <workItem from="1572419581180" duration="2915000" />
-      <workItem from="1572481445507" duration="8843000" />
+      <workItem from="1572481445507" duration="10345000" />
+      <workItem from="1572492646029" duration="1163000" />
     </task>
     <servers />
   </component>

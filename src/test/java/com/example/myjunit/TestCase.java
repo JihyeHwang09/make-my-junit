@@ -13,13 +13,30 @@ public abstract class TestCase {
     public TestCase(String testCaseName) {
         this.testCaseName = testCaseName;
     }
-    public void run () {
+
+    // 파라미터 없는 run을 생성
+    // TestResult를 자체적으로 인스턴스를 생성한 후,
+    // 파라미터가 있는 run 메소드를 호출한다.
+    public TestResult run () {
+        TestResult testResult = createTestResult();
+        run(testResult);
+
+        return testResult;
+    }
+    // TestResult를 파라미터로 받아서, startTest()를 실행하는 메소드로 수정함
+    public void run (TestResult testResult) {
+        testResult.startTest();
         // before와 after는 추상메소드가 아니다.
         // 일반메소드이지만 구현부분이 없이 생성
         before();
         runTestCase();
         after();
     }
+
+    private TestResult createTestResult () {
+        return new TestResult();
+    }
+
     protected void before () {}
 
     public void runTestCase() {
