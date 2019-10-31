@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62cc7b98-7b82-4e51-a429-8dc1044efcd2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestCaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/myjunit.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/myjunit.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestCastTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestCastTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestCaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestCaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestCaseTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +168,7 @@
       <updated>1572418589887</updated>
       <workItem from="1572418591806" duration="895000" />
       <workItem from="1572419581180" duration="2915000" />
-      <workItem from="1572481445507" duration="3201000" />
+      <workItem from="1572481445507" duration="4285000" />
     </task>
     <servers />
   </component>
