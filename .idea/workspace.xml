@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62cc7b98-7b82-4e51-a429-8dc1044efcd2" name="Default Changelist" comment="" />
+    <list default="true" id="62cc7b98-7b82-4e51-a429-8dc1044efcd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/myjunit.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/myjunit.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/myjunit/TestCastTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/myjunit/TestCastTest.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -36,7 +44,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SufqCE42PRIgin87i7QWkHL8yZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -64,7 +74,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestCastTest">
+  <component name="RunManager" selected="Application.TestCaseTest">
+    <configuration name="TestCaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.myjunit.TestCaseTest" />
+      <module name="myjunit.test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.myjunit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCastTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.myjunit.TestCastTest" />
       <module name="myjunit.test" />
@@ -129,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCaseTest" />
         <item itemvalue="Application.TestCastTest" />
         <item itemvalue="Gradle.C:/Users/CRS-P-60/Desktop/dev/myjunit [dependencies]" />
       </list>
@@ -146,6 +171,7 @@
       <updated>1572418589887</updated>
       <workItem from="1572418591806" duration="895000" />
       <workItem from="1572419581180" duration="2915000" />
+      <workItem from="1572481445507" duration="3201000" />
     </task>
     <servers />
   </component>
@@ -157,7 +183,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
